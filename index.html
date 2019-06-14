@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is a website for the 
+theme park called Out of this World Amusement Park."
+    />
+    <meta name="author" content="w25team" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+  initial-scale=1.0"
+    />
+    <meta name="refresh" content="600" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/stylesheet.css" />
+    <meta name="keywords" content="Space Park Theme Amusement Rides" />
+    <title>Out of this World Theme Park - Home</title>
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="logo"
+        alt="space park logo"
+        src="images/logo.png"
+        height="100"
+        width="50"
+      />
+      <h1>Out of This World' Space Theme Park</h1>
+
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rides.html">Rides</a></li>
+          <li><a href="info.html">Info</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="homepagecontent">
+      <div class="container">
+        <input type="radio" name="image" id="i1" checked />
+        <input type="radio" name="image" id="i2" />
+        <input type="radio" name="image" id="i3" />
+        <div class="img_slider" id="slide1">
+          <img
+            src="images/night-in-park.png"
+            alt="Night in the park. 15 August. Open until Midnight"
+          />
+          <label for="i3" class="pre"></label>
+
+          <label for="i2" class="nxt"></label>
+        </div>
+        <div class="img_slider" id="slide2">
+          <img
+            src="images/7planetspecial.png"
+            alt="7 planet special: children Under 7 get 30% off with code: 7planets. valid until 1 August"
+          />
+          <label for="i1" class="pre"></label>
+          <label for="i3" class="nxt"></label>
+        </div>
+        <div class="img_slider" id="slide3">
+          <img
+            src="images/freefall.png"
+            alt="What is scarier - Blast off or Free Fall? Hurtle Towards earth on our newest ride Free Fall"
+          />
+          <label for="i2" class="pre"></label>
+          <label for="i1" class="nxt"></label>
+        </div>
+      </div>
+      <div class="navdots">
+        <label class="dots" id="dot1" for="i1"></label>
+        <label class="dots" id="dot2" for="i2"></label>
+        <label class="dots" id="dot3" for="i3"></label>
+      </div>
+    </div>
+    <div class="section1"></div>
+
+    <div class="row">
+      <div class="column" id="welcomemessage">
+        <h2>Welcome!</h2>
+        <p>
+          Out of This World Theme Park is the best Space themed park ever! We
+          are
+          <abbr title="Authority of Rollercoaster Junkies">ARJ</abbr> approved.
+        </p>
+        <ul>
+          <li>
+            <p>Find out more <a href="info.html">information</a></p>
+          </li>
+          <li>
+            <p>View our <a href="rides.html">Rides</a></p>
+          </li>
+          <li>
+            <p>Buy <a href="tickets.html">Tickets</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="column" id="operatinghours" style="background-color:#aaa;">
+      <table>
+        <thead>
+          <tr style="font-size: 18px">
+            <th colspan="2" style="text-align: center">Operating hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Sunday</th>
+            <td>9am-7pm</td>
+          </tr>
+          <tr>
+            <th>Monday-Thursday (Peak Season)</th>
+            <td>9am - 7pm</td>
+          </tr>
+          <tr>
+            <th>Monday-Thursday (Off Season)</th>
+            <td>3pm- 7pm</td>
+          </tr>
+          <tr>
+            <th>Friday</th>
+            <td>12pm - 7pm</td>
+          </tr>
+          <tr>
+            <th>Saturday</th>
+            <td>9am - 5pm</td>
+          </tr>
+          <tr>
+            <th>Public Holidays</th>
+            <td>9am - 5pm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <hr />
+
+    <footer>
+      <div class="footer" id="Contact">
+        <h2>Contact</h2>
+        <div class="footer" id="physical-address">
+          <address><span>1 Milky Way</span> Luna Lagoon, CA, 12321</address>
+        </div>
+        <div class="footer" id="phone-number">
+          <p>123 1232</p>
+        </div>
+      </div>
+      <hr />
+      <div class="footer" id="social">
+        <h4>Social</h4>
+
+        <a href="facebook.com"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+        <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+        <a href="https://youtube.com"><i class="fa fa-youtube"></i></a>
+        <a href="mailto:example@domain.com"><i class="fa fa-envelope"></i></a>
+      </div>
+
+      <div class="footer" id="quicklinks">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="rides.html">Rides</a></li>
+          <li><a href="info.html#directions">Directions</a></li>
+          <li><a href="info.html#accessibility">Accessibility</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
